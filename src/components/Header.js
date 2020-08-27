@@ -107,11 +107,12 @@ function Header() {
             </Button>
           </>
         ) : (
-          <Typography variant="h6">
-            <NavLink variant="inherit" color="primary" to="/login" >
+            <NavLink   to="/login"  >
+              <Button sx={{ display: 'inline-block' }}>
               Login
+              </Button>
+              
             </NavLink>
-          </Typography>
           
         )}
         </Toolbar>

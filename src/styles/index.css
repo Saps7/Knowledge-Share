@@ -16,9 +16,7 @@ input {
   background-color: #ff6600;
 }
 
-.background-gray {
-  background-color: rgb(246, 246, 239);
-}
+
 
 .f11 {
   font-size: 11px;
@@ -47,17 +45,6 @@ input {
   margin-bottom: 0.2em;
 }
 
-.error-input {
-  border: 2px solid red;
-  border-radius: 4px;
-}
-
-.error-text {
-  margin: 0.25em 0 0.5em 0;
-  padding: 0;
-  color: red;
-  font-style: bold;
-}
 
 
 
@@ -66,33 +53,14 @@ input {
   
 }
 
-.link {
-  color: #828282;
-}
 
 textarea {
   margin-top: 0.5em;
   width: 90%;
 }
 
-.delete-button {
-  color: red;
-  cursor: pointer;
-}
 
-.app-container {
-  width: 85%;
-  margin-right: auto;
-  margin-left: auto;
-}
 
-.route-container {
-  background-color: rgb(246, 246, 239);
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
 
 .pagination {
   margin-top: 1rem;
@@ -110,9 +78,7 @@ textarea {
   margin-left: 0.25rem;
 }
 
-.forgot-password {
-  padding: 1em 0;
-}
+
 
 .logo {
   width: 20px;
@@ -125,15 +91,4 @@ textarea {
   color: #828282;
 }
 
-.input {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  border-color: rgba(0, 0, 0, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  padding: 0.2rem;
-  margin: 0.5rem 0;
-  width: 100%;
-  margin-bottom: 0.2em;
-  max-width: 500px;
-}
+
