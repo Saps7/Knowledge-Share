@@ -1,5 +1,5 @@
 const functions = require("firebase-functions");
-const LINKS_PER_PAGE = 5;
+const LINKS_PER_PAGE = 6;
 
 const admin = require("firebase-admin");
 admin.initializeApp({

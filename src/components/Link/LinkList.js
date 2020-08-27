@@ -5,6 +5,8 @@ import { LINKS_PER_PAGE } from "../../utils/index";
 import axios from "axios";
 
 import Grid from '@material-ui/core/Grid';
+import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import ArrowBackIcon from '@material-ui/icons/ArrowBack';
 
 function LinkList(props) {
   const { firebase } = React.useContext(FirebaseContext);
@@ -96,10 +98,10 @@ function LinkList(props) {
         {isNewPage && (
           <div className="pagination">
             <div className="pointer mr2" onClick={visitPreviousPage}>
-              Previous
+              <ArrowBackIcon/>
             </div>
             <div className="pointer" onClick={visitNextPage}>
-              Next
+              <ArrowForwardIcon/>
             </div>
           </div>
         )}
